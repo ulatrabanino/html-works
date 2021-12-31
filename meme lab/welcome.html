@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>meme maker 69</title>
+    <link rel="shortcut icon" href="https://images-na.ssl-images-amazon.com/images/I/81Nu5EuIpNL._SX679_.jpg"/>
+    <link rel="stylesheet" href="welcome.css">
+  </head>
+  <body>
+    <h1>Meme Generator</h1>
+    <h3>{{welcome_message}}</h3>
+    <img height="100px" width="150px" src="https://images-na.ssl-images-amazon.com/images/I/81Nu5EuIpNL._SX679_.jpg" alt="kirby">
+    <h2>Welcome to my Meme Generator!</h2>
+    <form method=POST action="/results">
+      Line 1 of Meme:<br>
+      <input type="text" name="user-first-ln" value="First Line of Meme">
+      <br>
+      Line 2 of Meme:<br>
+      <input type="text" name="user-second-ln" value="Second Line of Meme">
+      <br>
+      Meme Type:<br>
+       <select name="meme-type">
+        <option value="isabelle">isabelle</option>
+        <option value="peach">princess peach</option>
+        <option value="kirby">kirby :O</option>
+        <option value="creeper">creeper</option>
+        </select>
+      <input type="submit" value="Go!">
+    </form>
+
+    <a href="https://1c75e6803dba429197a17f7cdc2ac051.vfs.cloud9.us-east-1.amazonaws.com/results">
+      results
+    </a>
+  </body>
+</html>
